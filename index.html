@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אתר מדיה דרך GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .media {
+            margin-bottom: 20px;
+        }
+        .media img, .media video {
+            width: 100%;
+            height: auto;
+        }
+        .download-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>אתר מדיה דרך GitHub</h1>
+    <div class="media">
+        <h2>מדיה 1</h2>
+        <img src="https://raw.githubusercontent.com/plopiansky/11234/main/media/image1.jpg" alt="מדיה 1">
+        <a href="https://github.com/plopiansky/11234/raw/main/media/image1.jpg" class="download-link" download>הורד מדיה 1</a>
+    </div>
+    <div class="media">
+        <h2>מדיה 2</h2>
+        <video controls>
+            <source src="https://raw.githubusercontent.com/plopiansky/11234/main/media/video1.mp4" type="video/mp4">
+            הדפדפן שלך לא תומך בתג וידאו.
+        </video>
+        <a href="https://github.com/plopiansky/11234/raw/main/media/video1.mp4" class="download-link" download>הורד מדיה 2</a>
+    </div>
+    <!-- הוסף כאן מדיה נוספת -->
+</body>
+</html>
